@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "develop": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/christophbuehler/usa-2019/issues"
   },
-  "homepage": "https://github.com/christophbuehler/usa-2019#readme"
+  "homepage": "https://github.com/christophbuehler/usa-2019#readme",
+  "dependencies": {
+    "airtable": "^0.7.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "webpack-cli": "^3.3.7"
+  }
 }
