@@ -15,4 +15,13 @@ module.exports = [{
       }],
     },
   }];
+
+  // {
+  //   entry: './node_modules/airtable/build/airtable.browser.js',
+  //   output: {
+  //     filename: 'airtable.browser.js',
+  //     libraryTarget: 'umd',
+  //     library: 'Airtable',
+  //   },
+  // }
   
